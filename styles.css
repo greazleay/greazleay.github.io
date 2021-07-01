@@ -9,10 +9,16 @@ html {
 
 body {
     background-color: rebeccapurple;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 ul {
     list-style: none;
+}
+
+h1, h1 a {
+    color: white;
+    font-size: 3rem;
 }
 
 p, a {
