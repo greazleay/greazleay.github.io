@@ -3,25 +3,61 @@ html {
     font-size: 62.5%;
 }
 
+@media (max-width: 900px) {
+    html {
+        font-size: 60%;
+    }
+}
+
 *, *::before, *::after {
     box-sizing: inherit;
 }
 
 body {
-    background-color: rebeccapurple;
+    background-color: blueviolet;
     font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-start;
+}
+
+header {
+    background-color: rebeccapurple;
+    height: 5rem;
+    width: 100%;
+    margin: 0;
+    flex: 1 1 auto;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: flex-end;
 }
 
 ul {
     list-style: none;
+    flex: 1 1 auto;
+}
+
+h1, p, ul {
+    margin-left: 2rem;
 }
 
 h1, h1 a {
     color: white;
     font-size: 3rem;
+    flex: 1 1 auto;
 }
 
 p, a {
     color: white;
     font-size: 2rem;
+    flex: 1 1 auto;
+}
+
+img {
+    margin-right: 2rem;
 }
