@@ -1,3 +1,19 @@
+export const noscript_list = [
+    {
+        projectName: 'Google Clone',
+        links: [
+            {
+                url: 'https://github.com/greazleay/googleclone/',
+                text: 'View Code'
+            },
+            {
+                url: 'https://greazleay.github.io/googleclone/',
+                text: 'Live Preview'
+            }
+        ]
+    }
+]
+
 export const vanilla_list = [
     {
         projectName: 'Rock Paper Scissors',
@@ -178,11 +194,11 @@ export const full_stack = [
         projectName: 'Mini Message Board',
         links: [
             {
-                url: 'https://github.com/greazleay/shopping-cart/',
+                url: 'https://github.com/greazleay/mini-message-board/',
                 text: 'View Code'
             },
             {
-                url: 'https://rocky-fortress-40972.herokuapp.com',
+                url: 'https://mini-msb.herokuapp.com',
                 text: 'Live Preview'
             }
         ]

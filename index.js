@@ -1,4 +1,4 @@
-import { vanilla_list, react_list, full_stack } from "./data.js";
+import { noscript_list, vanilla_list, react_list, full_stack } from "./data.js";
 
 // Components
 
@@ -55,6 +55,9 @@ const project = (pname, links) => {
     links.forEach(link => anchorTag(link.url, link.text, div));
     projects.appendChild(div)
 }
+
+addPara('HTML/CSS', projects)
+noscript_list.forEach(entry => project(entry.projectName, entry.links))
 
 addPara('VanillaJS Projects', projects)
 vanilla_list.forEach(entry => project(entry.projectName, entry.links))

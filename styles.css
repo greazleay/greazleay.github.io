@@ -1,3 +1,7 @@
+:root {
+    --mleft: 4em
+}
+
 html {
     box-sizing: border-box;
     font-size: 62.5%;
@@ -37,13 +41,8 @@ header {
     justify-content: flex-end;
 }
 
-ul {
-    list-style: none;
-    flex: 1 1 auto;
-}
-
-h1, p, ul {
-    margin-left: 2rem;
+.container > h1, .container > p {
+    margin-left: 1em;
 }
 
 h1, h1 a {
@@ -68,7 +67,9 @@ a:hover {
 
 .projects {
     display: table;
-    /* width: 50%; */
+    width: 40%;
+    margin-left: var(--mleft);
+    border: solid 2px white;
 }
 
 .project, .projects p {
@@ -80,4 +81,14 @@ a:hover {
     display: table-cell;
     border: solid white 1px;
     text-decoration-line: none;
+}
+
+.projects p {
+    font-weight: bold;
+    text-align: center;
+}
+
+.projects a {
+    background: #3f5efb;
+    background: radial-gradient(circle, #3f5efb 0%, #fc466b75 100%);
 }
