@@ -52,7 +52,7 @@ h1, h1 a {
     flex: 1 1 auto;
 }
 
-p, a {
+p, a, span {
     color: white;
     font-size: 2rem;
     flex: 1 1 auto;
@@ -64,4 +64,20 @@ img {
 
 a:hover {
     color: rgb(20, 220, 47);
+}
+
+.projects {
+    display: table;
+    /* width: 50%; */
+}
+
+.project, .projects p {
+    display: table-row;
+    border: solid 1px white;
+}
+
+.project span, .project a {
+    display: table-cell;
+    border: solid white 1px;
+    text-decoration-line: none;
 }
