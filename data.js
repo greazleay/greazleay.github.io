@@ -205,3 +205,19 @@ export const full_stack = [
     }
 ]
 
+export const mern_stack = [
+    {
+        projectName: 'Inventory App',
+        links: [
+            {
+                url: 'https://github.com/greazleay/inventory-app',
+                text: 'View Code'
+            },
+            {
+                url: 'https://pollaroid.net/inventory-app',
+                text: 'Live Preview'
+            }
+        ]
+    }
+] 
+

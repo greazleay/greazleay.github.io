@@ -1,4 +1,4 @@
-import { noscript_list, vanilla_list, react_list, full_stack } from "./data.js";
+import { noscript_list, vanilla_list, react_list, full_stack, mern_stack } from "./data.js";
 
 // Components
 
@@ -67,5 +67,8 @@ react_list.forEach(entry => project(entry.projectName, entry.links))
 
 addPara('Full Stack NodeJS', projects)
 full_stack.forEach(entry => project(entry.projectName, entry.links))
+
+addPara('MERN Stack Projects', projects)
+mern_stack.forEach(entry => project(entry.projectName, entry.links))
 
 headline('p', 'You can view my Hackerrank profile ', 'https://www.hackerrank.com/greazleay')
