@@ -1,4 +1,4 @@
-import { noscript_list, vanilla_list, react_list, full_stack, mern_stack } from "./data.js";
+import { static_list, vanilla_list, react_list, full_stack, api_list } from "./data.js";
 
 // Components
 
@@ -56,19 +56,19 @@ const project = (pname, links) => {
     projects.appendChild(div)
 }
 
-addPara('HTML/CSS', projects)
-noscript_list.forEach(entry => project(entry.projectName, entry.links))
+addPara('Static Websites', projects)
+static_list.forEach(entry => project(entry.projectName, entry.links))
 
-addPara('VanillaJS Projects', projects)
+addPara('Vanilla JS Projects', projects)
 vanilla_list.forEach(entry => project(entry.projectName, entry.links))
 
-addPara('ReactJS Projects', projects)
+addPara('React JS Projects', projects)
 react_list.forEach(entry => project(entry.projectName, entry.links))
 
-addPara('Full Stack NodeJS', projects)
+addPara('Full Stack Node JS', projects)
 full_stack.forEach(entry => project(entry.projectName, entry.links))
 
-addPara('MERN Stack Projects', projects)
-mern_stack.forEach(entry => project(entry.projectName, entry.links))
+addPara('Express APIs', projects)
+api_list.forEach(entry => project(entry.projectName, entry.links))
 
-headline('p', 'You can view my Hackerrank profile ', 'https://www.hackerrank.com/greazleay')
+headline('p', 'View my Hackerrank profile ', 'https://www.hackerrank.com/greazleay')

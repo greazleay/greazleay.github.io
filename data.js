@@ -1,4 +1,4 @@
-export const noscript_list = [
+export const static_list = [
     {
         projectName: 'Google Clone',
         links: [
@@ -136,14 +136,27 @@ export const vanilla_list = [
 
 export const react_list = [
     {
-        projectName: 'Resume Builder',
+        projectName: 'Inventory App',
         links: [
             {
-                url: 'https://github.com/greazleay/cv-app/',
+                url: 'https://github.com/greazleay/inventory-app',
                 text: 'View Code'
             },
             {
-                url: 'https://greazleay.github.io/cv-app/',
+                url: 'https://pollaroid.net/inventory-app',
+                text: 'Live Preview'
+            }
+        ]
+    },
+    {
+        projectName: 'Shopping Cart',
+        links: [
+            {
+                url: 'https://github.com/greazleay/shopping-cart/',
+                text: 'View Code'
+            },
+            {
+                url: 'https://greazleay.github.io/shopping-cart/',
                 text: 'Live Preview'
             }
         ]
@@ -162,14 +175,14 @@ export const react_list = [
         ]
     },
     {
-        projectName: 'Shopping Cart',
+        projectName: 'Resume Builder',
         links: [
             {
-                url: 'https://github.com/greazleay/shopping-cart/',
+                url: 'https://github.com/greazleay/cv-app/',
                 text: 'View Code'
             },
             {
-                url: 'https://greazleay.github.io/shopping-cart/',
+                url: 'https://greazleay.github.io/cv-app/',
                 text: 'Live Preview'
             }
         ]
@@ -205,16 +218,16 @@ export const full_stack = [
     }
 ]
 
-export const mern_stack = [
+export const api_list = [
     {
-        projectName: 'Inventory App',
+        projectName: 'Inventory App API',
         links: [
             {
-                url: 'https://github.com/greazleay/inventory-app',
+                url: 'https://github.com/greazleay/inventory-app-api',
                 text: 'View Code'
             },
             {
-                url: 'https://pollaroid.net/inventory-app',
+                url: 'https://inv-hub.herokuapp.com/api',
                 text: 'Live Preview'
             }
         ]
