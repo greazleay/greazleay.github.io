@@ -9,7 +9,7 @@ const anchorTag = (url, txt, parent) => {
     a.rel = 'noopener noreferrer';
     a.textContent = txt;
     parent.appendChild(a);
-}
+};
 
 const headline = (e, txt, url) => {
     const parent = document.createElement(e);
@@ -18,13 +18,13 @@ const headline = (e, txt, url) => {
     anchorTag(url, 'here', parent)
     parent.append(' ...')
     container.appendChild(parent);
-}
+};
 
 const addPara = (txt, parent) => {
     const p = document.createElement('p');
     p.textContent = txt
     parent.appendChild(p)
-}
+};
 
 // Rendered
 
@@ -36,11 +36,11 @@ const header = document.createElement('header');
 const img = document.createElement('img');
 img.src = './favicon-32x32.png';
 img.alt = 'img';
-header.appendChild(img)
+header.appendChild(img);
 container.appendChild(header);
 
 headline('h1', 'My Resume is available ', 'https://drive.google.com/file/d/1AAf35x79zF83QMD3xlKDajH-FI5EnGEV/view?usp=sharing')
-addPara('Foundation Projects I have done and still updating are listed below:', container)
+addPara('Demo Projects I have done and still updating are listed below:', container)
 
 const projects = document.createElement('div');
 projects.className = 'projects';
@@ -54,21 +54,21 @@ const project = (pname, links) => {
     div.appendChild(span);
     links.forEach(link => anchorTag(link.url, link.text, div));
     projects.appendChild(div)
-}
+};
 
-addPara('Static Websites', projects)
-static_list.forEach(entry => project(entry.projectName, entry.links))
+addPara('Static Websites', projects);
+static_list.forEach(entry => project(entry.projectName, entry.links));
 
-addPara('Vanilla JS Projects', projects)
-vanilla_list.forEach(entry => project(entry.projectName, entry.links))
+addPara('Vanilla JS Projects', projects);
+vanilla_list.forEach(entry => project(entry.projectName, entry.links));
 
-addPara('React JS Projects', projects)
-react_list.forEach(entry => project(entry.projectName, entry.links))
+addPara('React JS/TS Projects', projects);
+react_list.forEach(entry => project(entry.projectName, entry.links));
 
-addPara('Full Stack Node JS', projects)
-full_stack.forEach(entry => project(entry.projectName, entry.links))
+addPara('Full Stack Node JS', projects);
+full_stack.forEach(entry => project(entry.projectName, entry.links));
 
-addPara('Express APIs', projects)
-api_list.forEach(entry => project(entry.projectName, entry.links))
+addPara('Express APIs', projects);
+api_list.forEach(entry => project(entry.projectName, entry.links));
 
-headline('p', 'View my Hackerrank profile ', 'https://www.hackerrank.com/greazleay')
+headline('p', 'View my Hackerrank profile ', 'https://www.hackerrank.com/greazleay');

@@ -136,6 +136,19 @@ export const vanilla_list = [
 
 export const react_list = [
     {
+        projectName: 'Members Only',
+        links: [
+            {
+                url: 'https://github.com/greazleay/members-only',
+                text: 'View Code'
+            },
+            {
+                url: 'https://mema.azurewebsites.net',
+                text: 'Live Preview'
+            }
+        ]
+    },
+    {
         projectName: 'Inventory App',
         links: [
             {
@@ -219,6 +232,19 @@ export const full_stack = [
 ]
 
 export const api_list = [
+    {
+        projectName: 'Members Only - Auth',
+        links: [
+            {
+                url: 'https://github.com/greazleay/members-only-api',
+                text: 'View Code'
+            },
+            {
+                url: 'https://wauth-svr.azurewebsites.net/api',
+                text: 'Live Preview'
+            }
+        ]
+    },
     {
         projectName: 'Inventory App API',
         links: [
