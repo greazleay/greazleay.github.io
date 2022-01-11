@@ -72,3 +72,4 @@ addPara('Express APIs', projects);
 api_list.forEach(entry => project(entry.projectName, entry.links));
 
 headline('p', 'View my Hackerrank profile ', 'https://www.hackerrank.com/greazleay');
+headline('p', 'View my LeetCode profile ', 'https://www.leetcode.com/greazleay');
