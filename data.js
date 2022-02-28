@@ -233,19 +233,6 @@ export const full_stack = [
 
 export const api_list = [
     {
-        projectName: 'Members Only - Auth',
-        links: [
-            {
-                url: 'https://github.com/greazleay/members-only-api',
-                text: 'View Code'
-            },
-            {
-                url: 'https://wauth-svr.azurewebsites.net/api',
-                text: 'Live Preview'
-            }
-        ]
-    },
-    {
         projectName: 'Inventory App API',
         links: [
             {
@@ -258,5 +245,33 @@ export const api_list = [
             }
         ]
     }
-] 
+]
 
+export const TypeScript_Node_API = [
+    {
+        projectName: 'Members Only API',
+        links: [
+            {
+                url: 'https://github.com/greazleay/members-only-api',
+                text: 'View Code'
+            },
+            {
+                url: 'https://mbo.herokuapp.com/api',
+                text: 'Live Preview'
+            }
+        ]
+    },
+    {
+        projectName: 'Thrifty API',
+        links: [
+            {
+                url: 'https://github.com/greazleay/thrifty-api',
+                text: 'View Code'
+            },
+            {
+                url: 'https://esusu-confam.herokuapp.com/api',
+                text: 'Live Preview'
+            }
+        ]
+    },
+]

@@ -1,4 +1,4 @@
-import { static_list, vanilla_list, react_list, full_stack, api_list } from "./data.js";
+import { static_list, vanilla_list, react_list, full_stack, api_list, TypeScript_Node_API } from "./data.js";
 
 // Components
 
@@ -68,8 +68,11 @@ react_list.forEach(entry => project(entry.projectName, entry.links));
 addPara('Full Stack Node JS', projects);
 full_stack.forEach(entry => project(entry.projectName, entry.links));
 
-addPara('Express APIs', projects);
+addPara('JavaScript Node APIs', projects);
 api_list.forEach(entry => project(entry.projectName, entry.links));
+
+addPara('TypeScript Node APIs', projects);
+TypeScript_Node_API.forEach(entry => project(entry.projectName, entry.links));
 
 headline('p', 'View my Hackerrank profile ', 'https://www.hackerrank.com/greazleay');
 headline('p', 'View my LeetCode profile ', 'https://www.leetcode.com/greazleay');
