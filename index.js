@@ -56,23 +56,23 @@ const project = (pname, links) => {
     projects.appendChild(div)
 };
 
-addPara('Static Websites', projects);
-static_list.forEach(entry => project(entry.projectName, entry.links));
-
-addPara('Vanilla JS Projects', projects);
-vanilla_list.forEach(entry => project(entry.projectName, entry.links));
-
-addPara('React JS/TS Projects', projects);
-react_list.forEach(entry => project(entry.projectName, entry.links));
-
-addPara('Full Stack Node JS', projects);
-full_stack.forEach(entry => project(entry.projectName, entry.links));
+addPara('TypeScript Node APIs', projects);
+TypeScript_Node_API.forEach(entry => project(entry.projectName, entry.links));
 
 addPara('JavaScript Node APIs', projects);
 api_list.forEach(entry => project(entry.projectName, entry.links));
 
-addPara('TypeScript Node APIs', projects);
-TypeScript_Node_API.forEach(entry => project(entry.projectName, entry.links));
+addPara('Full Stack Node JS', projects);
+full_stack.forEach(entry => project(entry.projectName, entry.links));
+
+addPara('React JS/TS Projects', projects);
+react_list.forEach(entry => project(entry.projectName, entry.links));
+
+addPara('Vanilla JS Projects', projects);
+vanilla_list.forEach(entry => project(entry.projectName, entry.links));
+
+addPara('Static Websites', projects);
+static_list.forEach(entry => project(entry.projectName, entry.links));
 
 headline('p', 'View my Hackerrank profile ', 'https://www.hackerrank.com/greazleay');
 headline('p', 'View my LeetCode profile ', 'https://www.leetcode.com/greazleay');
