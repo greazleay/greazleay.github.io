@@ -16,19 +16,6 @@ export const static_list = [
 
 export const vanilla_list = [
     {
-        projectName: 'Rock Paper Scissors',
-        links: [
-            {
-                url: 'https://github.com/greazleay/rock-paper-scissors/',
-                text: 'View Code'
-            },
-            {
-                url: 'https://greazleay.github.io/rock-paper-scissors/',
-                text: 'Live Preview'
-            }
-        ]
-    },
-    {
         projectName: 'Etch A Sketch',
         links: [
             {
@@ -37,6 +24,19 @@ export const vanilla_list = [
             },
             {
                 url: 'https://greazleay.github.io/etch-a-sketch/',
+                text: 'Live Preview'
+            }
+        ]
+    },
+    {
+        projectName: 'Rock Paper Scissors',
+        links: [
+            {
+                url: 'https://github.com/greazleay/rock-paper-scissors/',
+                text: 'View Code'
+            },
+            {
+                url: 'https://greazleay.github.io/rock-paper-scissors/',
                 text: 'Live Preview'
             }
         ]
@@ -94,6 +94,19 @@ export const vanilla_list = [
         ]
     },
     {
+        projectName: 'Weather App',
+        links: [
+            {
+                url: 'https://github.com/greazleay/weather-app/',
+                text: 'View Code'
+            },
+            {
+                url: 'https://greazleay.github.io/weather-app/',
+                text: 'Live Preview'
+            }
+        ]
+    },
+    {
         projectName: 'Restaurant Page',
         links: [
             {
@@ -115,19 +128,6 @@ export const vanilla_list = [
             },
             {
                 url: 'https://greazleay.github.io/todo-list/',
-                text: 'Live Preview'
-            }
-        ]
-    },
-    {
-        projectName: 'Weather App',
-        links: [
-            {
-                url: 'https://github.com/greazleay/weather-app/',
-                text: 'View Code'
-            },
-            {
-                url: 'https://greazleay.github.io/weather-app/',
                 text: 'Live Preview'
             }
         ]
@@ -204,6 +204,19 @@ export const react_list = [
 
 export const full_stack = [
     {
+        projectName: 'Mini Message Board',
+        links: [
+            {
+                url: 'https://github.com/greazleay/mini-message-board/',
+                text: 'View Code'
+            },
+            {
+                url: 'https://mini-message-board.greazleay.repl.co/',
+                text: 'Live Preview'
+            }
+        ]
+    },
+    {
         projectName: 'Basic Informational Site',
         links: [
             {
@@ -212,19 +225,6 @@ export const full_stack = [
             },
             {
                 url: 'https://basic-informational-site.greazleay.repl.co/',
-                text: 'Live Preview'
-            }
-        ]
-    },
-    {
-        projectName: 'Mini Message Board',
-        links: [
-            {
-                url: 'https://github.com/greazleay/mini-message-board/',
-                text: 'View Code'
-            },
-            {
-                url: 'https://mini-msb.herokuapp.com',
                 text: 'Live Preview'
             }
         ]

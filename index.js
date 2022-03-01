@@ -13,17 +13,17 @@ const anchorTag = (url, txt, parent) => {
 
 const headline = (e, txt, url) => {
     const parent = document.createElement(e);
-    parent.append(txt)
+    parent.append(txt);
     const a = document.createElement('a');
-    anchorTag(url, 'here', parent)
-    parent.append(' ...')
+    anchorTag(url, 'here', parent);
+    parent.append('...');
     container.appendChild(parent);
 };
 
 const addPara = (txt, parent) => {
     const p = document.createElement('p');
-    p.textContent = txt
-    parent.appendChild(p)
+    p.textContent = txt;
+    parent.appendChild(p);
 };
 
 // Rendered
@@ -39,8 +39,12 @@ img.alt = 'img';
 header.appendChild(img);
 container.appendChild(header);
 
-headline('h1', 'My Resume is available ', 'https://drive.google.com/file/d/1AAf35x79zF83QMD3xlKDajH-FI5EnGEV/view?usp=sharing')
-addPara('Demo Projects I have done and still updating are listed below:', container)
+const aboutMe = document.createElement('h1');
+aboutMe.textContent = 'About Me';
+container.appendChild(aboutMe);
+
+addPara('I am a Self-Taught Full Stack Developer with a passion for learning and building things. Currently looking for Junior Developer Roles to gain professional experience', container);
+addPara('The underlisted are personal projects and meant for demonstration purposes only:', container);
 
 const projects = document.createElement('div');
 projects.className = 'projects';
@@ -53,7 +57,7 @@ const project = (pname, links) => {
     span.textContent = pname;
     div.appendChild(span);
     links.forEach(link => anchorTag(link.url, link.text, div));
-    projects.appendChild(div)
+    projects.appendChild(div);
 };
 
 addPara('TypeScript Node APIs', projects);
@@ -74,5 +78,6 @@ vanilla_list.forEach(entry => project(entry.projectName, entry.links));
 addPara('Static Websites', projects);
 static_list.forEach(entry => project(entry.projectName, entry.links));
 
+headline('p', 'My Resume is available ', 'https://drive.google.com/file/d/1AAf35x79zF83QMD3xlKDajH-FI5EnGEV/view?usp=sharing');
 headline('p', 'View my Hackerrank profile ', 'https://www.hackerrank.com/greazleay');
 headline('p', 'View my LeetCode profile ', 'https://www.leetcode.com/greazleay');
