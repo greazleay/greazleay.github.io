@@ -256,7 +256,20 @@ export const TypeScript_Node_API = [
                 text: 'View Code'
             },
             {
-                url: 'https://mbo.herokuapp.com/api',
+                url: 'https://api-mbo.herokuapp.com/v1',
+                text: 'Live Preview'
+            }
+        ]
+    },
+    {
+        projectName: 'Finsys API',
+        links: [
+            {
+                url: 'https://github.com/greazleay/finsys-api',
+                text: 'View Code'
+            },
+            {
+                url: 'https://api-finsys.herokuapp.com',
                 text: 'Live Preview'
             }
         ]
@@ -269,7 +282,7 @@ export const TypeScript_Node_API = [
                 text: 'View Code'
             },
             {
-                url: 'https://esusu-confam.herokuapp.com/api',
+                url: 'https://api-thrifty.herokuapp.com/api',
                 text: 'Live Preview'
             }
         ]
