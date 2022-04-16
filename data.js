@@ -241,7 +241,7 @@ export const api_list = [
             },
             {
                 url: 'https://inv-hub.herokuapp.com/api',
-                text: 'Live Preview'
+                text: 'Base URL'
             }
         ]
     }
@@ -256,8 +256,8 @@ export const TypeScript_Node_API = [
                 text: 'View Code'
             },
             {
-                url: 'https://api-mbo.herokuapp.com/v1',
-                text: 'Live Preview'
+                url: 'https://api-mbo.herokuapp.com/api-docs',
+                text: 'API Documentation'
             }
         ]
     },
@@ -270,7 +270,7 @@ export const TypeScript_Node_API = [
             },
             {
                 url: 'https://api-finsys.herokuapp.com',
-                text: 'Live Preview'
+                text: 'Base URL'
             }
         ]
     },
@@ -282,8 +282,8 @@ export const TypeScript_Node_API = [
                 text: 'View Code'
             },
             {
-                url: 'https://api-thrifty.herokuapp.com/api',
-                text: 'Live Preview'
+                url: 'https://api-thrifty.herokuapp.com/v1',
+                text: 'Base URL'
             }
         ]
     },

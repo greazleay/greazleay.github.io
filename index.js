@@ -43,7 +43,7 @@ const aboutMe = document.createElement('h1');
 aboutMe.textContent = 'About Me';
 container.appendChild(aboutMe);
 
-addPara('I am a Self-Taught Full Stack Developer with a passion for learning and building things. Currently looking for Junior Developer Roles to gain professional experience', container);
+addPara('Back End Software Engineer with practical skills in building web applications and a keen interest in learning new technologies.', container);
 addPara('The underlisted are personal projects and meant for demonstration purposes only:', container);
 
 const projects = document.createElement('div');
