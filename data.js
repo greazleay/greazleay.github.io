@@ -249,19 +249,6 @@ export const api_list = [
 
 export const TypeScript_Node_API = [
     {
-        projectName: 'Members Only API',
-        links: [
-            {
-                url: 'https://github.com/greazleay/members-only-api',
-                text: 'View Code'
-            },
-            {
-                url: 'https://api-mbo.herokuapp.com/api-docs',
-                text: 'API Documentation'
-            }
-        ]
-    },
-    {
         projectName: 'Thrifty API',
         links: [
             {
@@ -270,6 +257,19 @@ export const TypeScript_Node_API = [
             },
             {
                 url: 'https://api-thrifty.herokuapp.com/api-docs',
+                text: 'API Documentation'
+            }
+        ]
+    },
+    {
+        projectName: 'Members Only API',
+        links: [
+            {
+                url: 'https://github.com/greazleay/members-only-api',
+                text: 'View Code'
+            },
+            {
+                url: 'https://api-mbo.herokuapp.com/api-docs',
                 text: 'API Documentation'
             }
         ]
