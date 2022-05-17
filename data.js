@@ -262,19 +262,6 @@ export const TypeScript_Node_API = [
         ]
     },
     {
-        projectName: 'Finsys API',
-        links: [
-            {
-                url: 'https://github.com/greazleay/finsys-api',
-                text: 'View Code'
-            },
-            {
-                url: 'https://api-finsys.herokuapp.com',
-                text: 'Base URL'
-            }
-        ]
-    },
-    {
         projectName: 'Thrifty API',
         links: [
             {
@@ -282,9 +269,22 @@ export const TypeScript_Node_API = [
                 text: 'View Code'
             },
             {
-                url: 'https://api-thrifty.herokuapp.com/v1',
-                text: 'Base URL'
+                url: 'https://api-thrifty.herokuapp.com/api-docs',
+                text: 'API Documentation'
             }
         ]
     },
+    {
+        projectName: 'Order Eat API',
+        links: [
+            {
+                url: 'https://github.com/greazleay/order-eat-api',
+                text: 'View Code'
+            },
+            {
+                url: 'https://api-ordereat.herokuapp.com',
+                text: 'Base URL'
+            }
+        ]
+    }
 ]
