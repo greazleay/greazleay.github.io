@@ -1,4 +1,4 @@
-import { static_list, vanilla_list, react_list, full_stack, api_list, TypeScript_Node_API } from "./data.js";
+import { static_list, vanilla_list, react_list, full_stack, nestjs_api_list, express_api_list } from "./data.js";
 
 // Components
 
@@ -60,11 +60,11 @@ const project = (pname, links) => {
     projects.appendChild(div);
 };
 
-addPara('TypeScript Node APIs', projects);
-TypeScript_Node_API.forEach(entry => project(entry.projectName, entry.links));
+addPara('NestJS APIs', projects);
+nestjs_api_list.forEach(entry => project(entry.projectName, entry.links));
 
-addPara('JavaScript Node APIs', projects);
-api_list.forEach(entry => project(entry.projectName, entry.links));
+addPara('Express APIs', projects);
+express_api_list.forEach(entry => project(entry.projectName, entry.links));
 
 addPara('Full Stack Node JS', projects);
 full_stack.forEach(entry => project(entry.projectName, entry.links));

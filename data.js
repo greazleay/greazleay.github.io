@@ -231,7 +231,20 @@ export const full_stack = [
     }
 ]
 
-export const api_list = [
+export const nestjs_api_list = [
+    {
+        projectName: 'Thrifty API',
+        links: [
+            {
+                url: 'https://github.com/greazleay/thrifty-api',
+                text: 'View Code'
+            },
+            {
+                url: 'https://api-thrifty.herokuapp.com/api-docs',
+                text: 'API Documentation'
+            }
+        ]
+    },
     {
         projectName: 'Inventory App API',
         links: [
@@ -247,20 +260,7 @@ export const api_list = [
     }
 ]
 
-export const TypeScript_Node_API = [
-    {
-        projectName: 'Thrifty API',
-        links: [
-            {
-                url: 'https://github.com/greazleay/thrifty-api',
-                text: 'View Code'
-            },
-            {
-                url: 'https://api-thrifty.herokuapp.com/api-docs',
-                text: 'API Documentation'
-            }
-        ]
-    },
+export const express_api_list = [
     {
         projectName: 'Members Only API',
         links: [
