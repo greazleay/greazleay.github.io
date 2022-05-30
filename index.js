@@ -1,4 +1,4 @@
-import { static_list, vanilla_list, react_list, full_stack, nestjs_api_list, express_api_list } from "./data.js";
+import { static_list, vanilla_list, react_list, nodejs_full_stack, nestjs_api_list, express_api_list, spring_api_list } from "./data.js";
 
 // Components
 
@@ -43,7 +43,13 @@ const aboutMe = document.createElement('h1');
 aboutMe.textContent = 'About Me';
 container.appendChild(aboutMe);
 
-addPara('Back End Software Engineer with practical skills in building web applications and a keen interest in learning new technologies.', container);
+addPara('Back End Software Engineer with practical skills in building web applications and a keen interest in learning new technologies, also open to Front End roles.', container);
+addPara('Programming Languages: TypeScript, JavaScript, Kotlin', container);
+
+headline('p', 'View my Hackerrank profile ', 'https://www.hackerrank.com/greazleay');
+headline('p', 'View my LeetCode profile ', 'https://www.leetcode.com/greazleay');
+headline('p', 'My Resume is available ', 'https://drive.google.com/file/d/1AAf35x79zF83QMD3xlKDajH-FI5EnGEV/view?usp=sharing');
+
 addPara('The underlisted are personal projects and meant for demonstration purposes only:', container);
 
 const projects = document.createElement('div');
@@ -60,14 +66,19 @@ const project = (pname, links) => {
     projects.appendChild(div);
 };
 
-addPara('NestJS APIs', projects);
+addPara('NestJS REST APIs', projects);
 nestjs_api_list.forEach(entry => project(entry.projectName, entry.links));
 
-addPara('Express APIs', projects);
+addPara('Express REST APIs', projects);
 express_api_list.forEach(entry => project(entry.projectName, entry.links));
 
+addPara('Spring Boot + Kotlin REST APIs', projects);
+spring_api_list.forEach(entry => project(entry.projectName, entry.links));
+
 addPara('Full Stack Node JS', projects);
-full_stack.forEach(entry => project(entry.projectName, entry.links));
+nodejs_full_stack.forEach(entry => project(entry.projectName, entry.links));
+
+addPara('FRONT END:', projects);
 
 addPara('React JS/TS Projects', projects);
 react_list.forEach(entry => project(entry.projectName, entry.links));
@@ -77,7 +88,3 @@ vanilla_list.forEach(entry => project(entry.projectName, entry.links));
 
 addPara('Static Websites', projects);
 static_list.forEach(entry => project(entry.projectName, entry.links));
-
-headline('p', 'My Resume is available ', 'https://drive.google.com/file/d/1AAf35x79zF83QMD3xlKDajH-FI5EnGEV/view?usp=sharing');
-headline('p', 'View my Hackerrank profile ', 'https://www.hackerrank.com/greazleay');
-headline('p', 'View my LeetCode profile ', 'https://www.leetcode.com/greazleay');

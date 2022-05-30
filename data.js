@@ -191,18 +191,18 @@ export const react_list = [
         projectName: 'Resume Builder',
         links: [
             {
-                url: 'https://github.com/greazleay/cv-app/',
+                url: 'https://github.com/greazleay/resume-builder',
                 text: 'View Code'
             },
             {
-                url: 'https://greazleay.github.io/cv-app/',
+                url: 'https://resume-builder-ashy.vercel.app/',
                 text: 'Live Preview'
             }
         ]
     }
 ]
 
-export const full_stack = [
+export const nodejs_full_stack = [
     {
         projectName: 'Mini Message Board',
         links: [
@@ -284,6 +284,22 @@ export const express_api_list = [
             {
                 url: 'https://api-ordereat.herokuapp.com',
                 text: 'Base URL'
+            }
+        ]
+    }
+]
+
+export const spring_api_list = [
+    {
+        projectName: 'Book Library API',
+        links: [
+            {
+                url: 'https://github.com/greazleay/booklibraryapi',
+                text: 'View Code'
+            },
+            {
+                url: '#',
+                text: 'Local Install Only'
             }
         ]
     }
