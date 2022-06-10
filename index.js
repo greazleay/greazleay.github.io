@@ -1,4 +1,4 @@
-import { static_list, vanilla_list, react_list, nodejs_full_stack, nestjs_api_list, express_api_list, spring_api_list } from "./data.js";
+import { static_list, vanilla_list, react_list, nodejs_full_stack, nestjs_api_list, express_api_list, fastify_api_list, spring_api_list } from "./data.js";
 
 // Components
 
@@ -71,6 +71,9 @@ nestjs_api_list.forEach(entry => project(entry.projectName, entry.links));
 
 addPara('Express REST APIs', projects);
 express_api_list.forEach(entry => project(entry.projectName, entry.links));
+
+addPara('Fastify REST APIs', projects);
+fastify_api_list.forEach(entry => project(entry.projectName, entry.links));
 
 addPara('Spring Boot + Kotlin REST APIs', projects);
 spring_api_list.forEach(entry => project(entry.projectName, entry.links));

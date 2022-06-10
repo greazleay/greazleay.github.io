@@ -244,19 +244,6 @@ export const nestjs_api_list = [
                 text: 'API Documentation'
             }
         ]
-    },
-    {
-        projectName: 'Inventory App API',
-        links: [
-            {
-                url: 'https://github.com/greazleay/inventory-app-api',
-                text: 'View Code'
-            },
-            {
-                url: 'https://inv-hub.herokuapp.com/api',
-                text: 'Base URL'
-            }
-        ]
     }
 ]
 
@@ -283,6 +270,22 @@ export const express_api_list = [
             },
             {
                 url: 'https://api-ordereat.herokuapp.com',
+                text: 'Base URL'
+            }
+        ]
+    }
+]
+
+export const fastify_api_list = [
+    {
+        projectName: 'Inventory App API',
+        links: [
+            {
+                url: 'https://github.com/greazleay/inventory-app-api',
+                text: 'View Code'
+            },
+            {
+                url: 'https://inv-hub.herokuapp.com/api',
                 text: 'Base URL'
             }
         ]
