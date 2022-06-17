@@ -2,34 +2,57 @@
     --mleft: 4em
 }
 
-html {
+*,
+*::before,
+*::after {
     box-sizing: border-box;
-    font-size: 62.5%;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-kerning: auto;
 }
 
-@media (max-width: 900px) {
-    html {
-        font-size: 60%;
+html {
+    font-family: "Source Sans Pro", sans-serif;
+    -webkit-text-size-adjust: 100%;
+}
+
+@media (max-width: 400px) {
+    * {
+        font-size: 3vw;
     }
-}
-
-*, *::before, *::after {
-    box-sizing: inherit;
 }
 
 body {
     background-color: blueviolet;
-    font-family: cursive;
+    font-family: 'Satisfy', cursive;
     margin: 0;
+}
+
+body::-webkit-scrollbar {
+    width: 0.5em;
+}
+
+body::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px #0000004d;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #ccb1a59d;
+    border-radius: 5px;
 }
 
 .container {
     display: flex;
     flex-flow: column wrap;
-    align-items: flex-start;
-}
+    place-content: center space-around;
+    align-items: center;
+    min-height: 100vh;
+    max-width: 100vw;
+    color: white;
+  }
 
-header {
+/* header {
     background-color: rebeccapurple;
     height: 5rem;
     width: 100%;
@@ -39,19 +62,33 @@ header {
     flex-flow: row wrap;
     align-items: center;
     justify-content: flex-end;
-}
+} */
 
-.container > h1, .container > p {
+header {
+    display: flex;
+    flex-flow: row wrap;
+    place-content: center flex-end;
+    align-items: center;
+    background-color: rebeccapurple;
+    width: 100%;
+    height: 5rem;
+  }
+
+.container>h1,
+.container>p {
     margin-left: 1em;
 }
 
-h1, h1 a {
+h1,
+h1 a {
     color: white;
     font-size: 3rem;
     flex: 1 1 auto;
 }
 
-p, a, span {
+p,
+a,
+span {
     color: white;
     font-size: 2rem;
     flex: 1 1 auto;
@@ -72,12 +109,14 @@ a:hover {
     border: solid 2px white;
 }
 
-.project, .projects p {
+.project,
+.projects p {
     display: table-row;
     border: solid 1px white;
 }
 
-.project span, .project a {
+.project span,
+.project a {
     display: table-cell;
     border: solid white 1px;
     text-decoration-line: none;
@@ -89,6 +128,6 @@ a:hover {
 }
 
 .projects a {
-    background: #3f5efb;
+    background: #6a5797c4;
     background: radial-gradient(circle, #3f5efb 0%, #fc466b75 100%);
 }
