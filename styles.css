@@ -13,7 +13,7 @@
 }
 
 html {
-    font-family: "Source Sans Pro", sans-serif;
+    font-family: 'Poppins', sans-serif;
     -webkit-text-size-adjust: 100%;
 }
 
@@ -25,7 +25,7 @@ html {
 
 body {
     background-color: blueviolet;
-    font-family: 'Satisfy', cursive;
+    font-family: 'Poppins', sans-serif;
     margin: 0;
 }
 
