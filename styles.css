@@ -120,12 +120,18 @@ a:hover {
     background: radial-gradient(circle, #3f5efb 0%, #fc466b75 100%);
 }
 
+.category {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
 .grid {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    max-width: 800px;
+    max-width: 1200px;
 }
 
 .card {
