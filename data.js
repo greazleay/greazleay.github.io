@@ -179,7 +179,7 @@ export const react_list = {
                     text: 'View Code'
                 },
                 {
-                    url: 'https://greazleay.github.io/shopping-cart/',
+                    url: 'https://shopping-cart-peach.vercel.app/',
                     text: 'Live Preview'
                 }
             ]
