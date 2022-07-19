@@ -4,6 +4,7 @@ import {
     express_api_list,
     fastify_api_list,
     nestjs_api_list,
+    nextjs_list,
     nodejs_full_stack,
     react_list,
     spring_api_list,
@@ -113,6 +114,7 @@ projectCategory(express_api_list)
 projectCategory(fastify_api_list)
 projectCategory(spring_api_list)
 projectCategory(nodejs_full_stack)
+projectCategory(nextjs_list)
 projectCategory(react_list)
 projectCategory(vanilla_list)
 projectCategory(static_list)

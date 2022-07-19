@@ -172,19 +172,6 @@ export const react_list = {
             ]
         },
         {
-            projectName: 'Shopping Cart',
-            links: [
-                {
-                    url: 'https://github.com/greazleay/shopping-cart/',
-                    text: 'View Code'
-                },
-                {
-                    url: 'https://greazleay.github.io/shopping-cart/',
-                    text: 'Live Preview'
-                }
-            ]
-        },
-        {
             projectName: 'Memory Card Game',
             links: [
                 {
@@ -193,6 +180,25 @@ export const react_list = {
                 },
                 {
                     url: 'https://greazleay.github.io/memory-card/',
+                    text: 'Live Preview'
+                }
+            ]
+        }
+    ]
+}
+
+export const nextjs_list = {
+    categoryName: 'Next.js Projects',
+    projectList: [
+        {
+            projectName: 'Shopping Cart',
+            links: [
+                {
+                    url: 'https://github.com/greazleay/shopping-cart/',
+                    text: 'View Code'
+                },
+                {
+                    url: 'https://greazleay.github.io/shopping-cart/',
                     text: 'Live Preview'
                 }
             ]
@@ -258,6 +264,19 @@ export const nestjs_api_list = {
                 {
                     url: 'https://api-thrifty.herokuapp.com/api-docs',
                     text: 'API Documentation'
+                }
+            ]
+        },
+        {
+            projectName: 'Project Tracker API',
+            links: [
+                {
+                    url: 'https://github.com/greazleay/project-tracker-api',
+                    text: 'View Code'
+                },
+                {
+                    url: '#',
+                    text: 'Local Install Only'
                 }
             ]
         }
