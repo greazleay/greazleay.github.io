@@ -275,8 +275,8 @@ export const nestjs_api_list = {
                     text: 'View Code'
                 },
                 {
-                    url: '#',
-                    text: 'Local Install Only'
+                    url: 'https://api-pmt.herokuapp.com/api-docs',
+                    text: 'API Documentation'
                 }
             ]
         }
